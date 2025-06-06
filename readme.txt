@@ -1,28 +1,18 @@
- Task 01 – Caesar Cipher 🔐
+ Task 02 – Image Encryption with Pixel Manipulation 🖼️
 
-This is a simple Caesar Cipher tool written in Python for Kyrexi Infoech's Cybersecurity internship. It can **encrypt** and **decrypt** text using a user-defined shift value.
+This Python project encrypts and decrypts images by manipulating pixel RGB values using the Pillow library.
 
----
+## 🔐 How it Works
 
-## 🚀 How It Works
+- Adds 50 to each RGB color value to **encrypt**.
+- Subtracts 50 from RGB to **decrypt**.
 
-- Asks the user to choose between encryption and decryption.
-- Accepts a message and a shift value.
-- Encrypts or decrypts the message using the Caesar Cipher algorithm.
+## ✅ Requirements
 
----
+- Python 3
+- Pillow (`pip install pillow`)
 
-## 📌 Features
-
-- Handles both uppercase and lowercase letters.
-- Keeps non-letter characters (spaces, punctuation) unchanged.
-- Clean and beginner-friendly Python code.
-
----
-
-## 💻 How to Run
-
-Make sure you have Python installed. Then:
+## 🛠 How to Run
 
 ```bash
-python cipher.py
+python image.py
